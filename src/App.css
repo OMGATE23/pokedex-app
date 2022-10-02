@@ -2,37 +2,67 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #38bdf8;
+  color: #0c4a6e;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  
+}
+header h1 {
+
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  font-family: 'Minecraft', sans-serif;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  background-color: white;
+  color: #0369a1;
+  border: 3px solid #0ea5e9;
+  border-radius: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button:hover {
   color: white;
+  background-color:#0ea5e9;
+  border: 3px solid #0369a1;
+
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  background-color:#0ea5e9;
+  padding: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-title-div {
+  font-size:1.75rem;
+  font-weight: bold;
+  color: #0c4a6e;
+  margin: 1rem;
 }
+
+
+footer ul {
+  list-style: none;
+  margin: auto;
+
+  max-width: 50%;
+  text-align: center;
+  padding-left: 0;
+
+  
+}
+
+footer ul li {
+  display: inline;
+  padding: 0 1rem;
+  
+}
+footer ul i {
+  font-size: 2rem;
+  color: #0c4a6e;
+}
+
