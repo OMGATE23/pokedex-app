@@ -42,8 +42,9 @@ function App() {
     <div className="App">
 
       <header>
-        
+
         <h1>PokeDex</h1>
+
       </header>
       <Pagination 
           gotoNextPage = {nextPageURL ? gotoNextPage: null}
