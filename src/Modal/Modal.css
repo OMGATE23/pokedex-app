@@ -47,6 +47,8 @@
 
 .modal-button{
     position: absolute;
+    width: 35px;
+    height: 35px;
     top: 10px;
     right: 0;
     border-radius: 50%;
